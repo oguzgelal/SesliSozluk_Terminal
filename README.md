@@ -1,11 +1,21 @@
 SesliSozluk Terminal
 ====================
 
-Komut satırı üzerinden SesliSözlük'ü kullanabilirsiniz. Kurulum için **ss** isimli dosyayı
+Komut satırı üzerinden SesliSözlük'ü kullanabilirsiniz.
+
+Kurulum için öncelikle yüklü değilse bilgisayarınızda Xcode ve command line tools kurulu olmalı. Ardından, **ss** isimli dosyayı
 ```
 /usr/local/bin
 ```
-klasörüne ekleyin. Ekledikten sonra aşağıdaki gibi kullanabilirsiniz :
+klasörüne ekleyin. Ekledikten sonra aşağıdaki komutları çalıştırın :
+
+```
+sudo cpan
+yes [kurulum bitene kadar arka arkaya 3 kere girin]
+install HTML::TagParser [cpan çalışmaya başladığında]
+exit
+```
+Bunları yaptıktan sonra, aşağıdaki gibi kullanabilirsiniz :
 ```
 ss [aradığınız kelime]
 ```
