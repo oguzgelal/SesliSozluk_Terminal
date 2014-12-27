@@ -39,6 +39,7 @@ sudo vim /etc/paths
 ```
 Şifrenizi sorarsa şifrenizi girin. Açılacak text editöründe **i** tuşuna basıp **insert** moduna geçtikten sonra yeni bir satıra **/usr/local/bin** yazın. Ardından sırasıyla aşağıdakileri çalıştırın:
 ```
+ESC (Escape Tuşu)
 :w [Enter]
 :q [Enter]
 ```
